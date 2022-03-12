@@ -1,4 +1,8 @@
+// ignore_for_file: unused_import
+
 import 'package:get/get.dart';
+import 'package:my_project/pages/clothes/category_product.dart';
+import 'package:my_project/pages/clothes/category_product_details.dart';
 import 'package:my_project/pages/clothes/product_details.dart';
 
 class Dimensions {
@@ -37,4 +41,11 @@ class Dimensions {
 
   //navigate bar height
   static double BottomHeighBar = screenHeight / 6.834;
+
+  // CategoryProductDetails
+  static double catproductImgSize = screenHeight / 2.41; // height: 350
+
+  static double bottomHeightBar = screenHeight / 5.695; // height 120
+  static double catproductdetSize = screenHeight / 1.528; // height: 350
+
 }
